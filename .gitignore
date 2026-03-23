@@ -1,0 +1,22 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Ignore everything by default
+*
+
+# Keep repo metadata and docs
+!.gitignore
+!README.md
+!public/
+!public/**
+
+# Local/private source material
+cv-xuhang.pdf
+phd-cv-xuhang.tex
+phd-cv-xuhang-chn.tex
+master-cv-xuhang.pdf

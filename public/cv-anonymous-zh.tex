@@ -1,0 +1,109 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[
+  letterpaper,
+  top=0.92in,
+  bottom=0.90in,
+  left=1.02in,
+  right=0.92in,
+  headsep=0.28in,
+  footskip=0.30in
+]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{ragged2e}
+
+\setmainfont{TeX Gyre Pagella}
+\setCJKmainfont{SimSun}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\headheight}{14pt}
+\renewcommand{\arraystretch}{1.0}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\section}{0pt}{1.25em}{0.55em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\itshape\small Anonymous Candidate}
+\fancyhead[R]{\small \thepage}
+
+\newenvironment{cvitems}
+  {\begin{list}{}{\setlength{\leftmargin}{1.1em}\setlength{\itemsep}{0.25em}\setlength{\topsep}{0.15em}\setlength{\parsep}{0pt}\setlength{\partopsep}{0pt}}\small}
+  {\end{list}}
+
+\begin{document}
+\thispagestyle{empty}
+
+{\fontsize{20}{22}\selectfont 姓名\par}
+\vspace{0.7em}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.49\textwidth}p{0.45\textwidth}@{}}
+\RaggedRight
+顶尖研究型大学 & \RaggedRight 邮箱：\href{mailto:anonymous@example.com}{anonymous@example.com} \\
+北美 & \RaggedRight GitHub：\href{https://github.com/username}{username} \\
+ & \RaggedRight 个人网站：\href{https://example.com}{example.com} \\
+\end{tabular*}
+
+\section*{教育背景}
+\begin{cvitems}
+  \item \textbf{顶尖研究型大学}，北美
+  \item \hspace*{1.5em}社会科学博士 \hfill 2024/09 -- 至今
+  \item \textbf{某私立大学}，美国
+  \item \hspace*{1.5em}定量社会研究硕士 \hfill 2022/09 -- 2024/06
+  \item \textbf{某重点大学}，中国
+  \item \hspace*{1.5em}社会分析本科 \hfill 2018/09 -- 2022/06
+\end{cvitems}
+
+\section*{研究兴趣}
+\begin{cvitems}
+  \item 关键词：数字平台、应用微观、实验研究、决策行为
+\end{cvitems}
+
+\section*{研究论文}
+\begin{cvitems}
+  \item \textbf{论文标题示例}
+  \item \hspace*{1.5em}与 Prof. 合作者 A、Prof. 合作者 B、合作者 C 合作
+  \item \hspace*{1.5em}关键词：消费者行为、数字干预、时机选择
+  \item \hspace*{1.5em}已投稿至期刊名称；\href{https://example.com}{工作论文链接}
+\end{cvitems}
+
+\section*{教学经历}
+\begin{cvitems}
+  \item \textbf{顶尖研究型大学}
+  \item \hspace*{1.5em}\textit{助教}，Pricing \hfill 2024 年秋季
+  \item \hspace*{1.5em}\textit{助教}，Principles of Marketing \hfill 2025 年冬季
+  \item \hspace*{1.5em}\textit{助教}，Pricing \hfill 2025 年秋季
+\end{cvitems}
+
+\section*{工作经历}
+\begin{cvitems}
+  \item \textbf{研究型大学经济系}
+  \item \hspace*{1.5em}\textit{研究助理}，合作导师：Prof. Faculty A \hfill 2023/06 -- 2024/04
+  \item \textbf{国际研究实验室}
+  \item \hspace*{1.5em}\textit{研究助理}，合作导师：Prof. Faculty B \hfill 2022/06 -- 2024/04
+\end{cvitems}
+
+\section*{奖励荣誉}
+\begin{cvitems}
+  \item \textbf{研究生院校}
+  \item \hspace*{1.5em}院长研究奖
+  \item \hspace*{1.5em}优秀奖学金
+  \item \textbf{本科院校}
+  \item \hspace*{1.5em}校级奖学金
+  \item \hspace*{1.5em}校级奖学金
+\end{cvitems}
+
+\end{document}
