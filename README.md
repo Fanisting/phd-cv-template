@@ -2,6 +2,10 @@
 
 This repository contains public-safe LaTeX CV templates for GitHub sharing.
 
+## Preview
+
+![English CV preview](public/cv-anonymous-en-preview.png)
+
 ## Repo Layout
 
 - `public/cv-anonymous-en.tex`: anonymous English CV template
