@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.28)  22 MAR 2026 20:41
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.28)  22 MAR 2026 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,11 +570,11 @@ Package rerunfilecheck Info: File `cv-anonymous-zh.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13146 strings out of 468179
- 280173 string characters out of 5436883
- 745662 words of memory out of 5000000
- 41736 multiletter control sequences out of 15000+600000
- 631602 words of font info for 80 fonts, out of 8000000 for 9000
+ 13141 strings out of 468179
+ 280055 string characters out of 5436883
+ 744646 words of memory out of 5000000
+ 41732 multiletter control sequences out of 15000+600000
+ 631594 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,93p,266b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

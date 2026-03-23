@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  22 MAR 2026 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  22 MAR 2026 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,7 +343,7 @@ Package rerunfilecheck Info: File `cv-anonymous-en.out' has not changed.
 Here is how much of TeX's memory you used:
  9461 strings out of 467538
  146604 string characters out of 5423724
- 579842 words of memory out of 5000000
+ 579826 words of memory out of 5000000
  38292 multiletter control sequences out of 15000+600000
  651581 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -351,7 +351,7 @@ Here is how much of TeX's memory you used:
 <c:/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/
 2025/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb><c:/texlive/2025/texmf-dis
 t/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on public/cv-anonymous-en.pdf (1 page, 154714 bytes).
+Output written on public/cv-anonymous-en.pdf (1 page, 152596 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
